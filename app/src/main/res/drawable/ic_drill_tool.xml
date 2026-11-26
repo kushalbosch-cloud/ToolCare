@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+  <!-- Drill Machine Chuck / Bit -->
+  <path
+      android:fillColor="#0D1B2A"
+      android:pathData="M15,35 L28,35 L28,45 L15,45 Z"/>
+  <path
+      android:fillColor="#475569"
+      android:pathData="M8,38 L15,38 L15,42 L8,42 Z"/>
+
+  <!-- Drill Main Housing (Bosch Blue) -->
+  <path
+      android:fillColor="#005691"
+      android:pathData="M28,28 L68,28 C74,28 78,32 78,38 L78,50 C78,54 74,58 68,58 L48,58 L42,82 C41,85 38,87 35,87 L22,87 C20,87 18,85 19,83 L28,42 L28,28 Z"/>
+
+  <!-- Battery Pack at Bottom -->
+  <path
+      android:fillColor="#0D1B2A"
+      android:pathData="M16,84 L40,84 L42,94 L14,94 Z"/>
+  <path
+      android:fillColor="#DC2626"
+      android:pathData="M14,94 L42,94 L41,97 L15,97 Z"/>
+
+  <!-- Rubber Grip & Accent Details -->
+  <path
+      android:fillColor="#1E293B"
+      android:pathData="M32,48 L44,48 L38,80 L28,80 Z"/>
+
+  <!-- Red Switch Trigger & Bosch Red Stripe -->
+  <path
+      android:fillColor="#DC2626"
+      android:pathData="M38,45 L43,45 L42,53 L37,53 Z"/>
+  <path
+      android:fillColor="#DC2626"
+      android:pathData="M30,32 L66,32 L66,35 L30,35 Z"/>
+
+  <!-- Bosch Logo Text Box Accent -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M40,38 L62,38 L62,44 L40,44 Z"/>
+</vector>

@@ -1,0 +1,16 @@
+{
+  "name": "toolcare-functions",
+  "version": "1.0.0",
+  "description": "Server-driven FCM push notifications, scheduled alerts, and Backblaze B2 presigned URLs for ToolCare",
+  "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/s3-request-presigner": "^3.600.0",
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "private": true
+}

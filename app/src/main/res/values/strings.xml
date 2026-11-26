@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">ToolCare</string>
+    <string name="dashboard_title">Live Dashboard</string>
+    <string name="back_button">&lt; Back</string>
+    <string name="system_summary">System Summary</string>
+    <string name="total_original_tools">Total Original Tools Registered</string>
+    <string name="total_backup_tools">Total Backup Tools Available</string>
+    <string name="backup_tools_in_use">Backup Tools Currently In Use</string>
+    <string name="active_breakdown_repair">Active Breakdown / Under Repair</string>
+    <string name="home_title">TOOLCARE</string>
+    <string name="maintenance_tool_management">Maintenance Tool Management</string>
+    <string name="tool_status">Tool Status</string>
+    <string name="status_original">Original</string>
+    <string name="status_backup">Backup</string>
+    <string name="status_breakdown">Breakdown</string>
+    <string name="status_repair">Repair</string>
+    <string name="menu_title">Menu</string>
+    <string name="menu_original_tools">Original Tools</string>
+    <string name="menu_backup_tools">Backup Tools</string>
+    <string name="menu_report_breakdown">Breakdown</string>
+    <string name="menu_repair_status">Repair</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_history">History</string>
+    <string name="subtitle_original_tools">Original Tool List</string>
+    <string name="subtitle_backup_tools">Backup Tool List</string>
+    <string name="subtitle_report_breakdown">Report Breakdown</string>
+    <string name="subtitle_repair_status">Repair Status</string>
+    <string name="subtitle_dashboard">Live Tool Status</string>
+    <string name="subtitle_history">Tool History</string>
+    <string name="btn_open">Open</string>
+    <string name="menu_pm_management">PM Management</string>
+    <string name="subtitle_pm_management">Preventive Maintenance &amp; Parts Tracking</string>
+
+    <!-- Original Tools Screen -->
+    <string name="original_tools_list_title">Original Tools List</string>
+    <string name="btn_add">+ Add</string>
+    <string name="total_original_tools_count">Total Original Tools: %1$d</string>
+    <string name="no_original_tools">No Original Tools Added Yet</string>
+    <string name="label_name">Name: %1$s</string>
+    <string name="label_line_station">Line: %1$s | Station: %2$s</string>
+    <string name="add_original_tool_title">Add Original Tool</string>
+    <string name="label_tool_id_hint">Tool ID (e.g. O-001)</string>
+    <string name="label_tool_name_hint">Tool Name / Torque Wrench</string>
+    <string name="label_line_hint">Line (e.g. Line 1)</string>
+    <string name="label_station_hint">Station (e.g. ST-05)</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Backup Tools Screen -->
+    <string name="backup_tools_title">Backup Tools</string>
+    <string name="total_backup_count">Total Backup: %1$d</string>
+    <string name="btn_add_backup">+ Add Backup</string>
+    <string name="no_backup_tools">No Backup Tools Added Yet</string>
+    <string name="add_backup_tool_title">Add Backup Tool</string>
+    <string name="label_backup_tool_id_hint">Backup Tool ID (e.g. B-001)</string>
+    <string name="label_tool_model_hint">Tool Model</string>
+    <string name="label_serial_number_hint">Serial Number</string>
+    <string name="label_model">Model: %1$s</string>
+    <string name="label_sn">S/N: %1$s</string>
+
+    <!-- Breakdown Screen -->
+    <string name="report_breakdown_title">Report Breakdown</string>
+    <string name="breakdown_entry_title">Tool Breakdown Entry</string>
+    <string name="label_original_tool_id_hint">Original Tool ID (e.g. O-025)</string>
+    <string name="label_line_hint_short">Line (e.g. L-05)</string>
+    <string name="label_station">Station</string>
+    <string name="select_backup_tool">Select Backup Tool</string>
+    <string name="label_backup_tool">Backup Tool</string>
+    <string name="no_available_backup">No Available Backup Tool</string>
+    <string name="problem_description_hint">Breakdown Details / Problem Description</string>
+    <string name="btn_submit_breakdown">Submit Breakdown Log</string>
+
+    <!-- Repair Screen -->
+    <string name="repair_handover_title">Repair &amp; Handover Status</string>
+    <string name="pending_actions_count">Pending Actions (%1$d)</string>
+    <string name="no_pending_repairs">No Tools Under Repair or Pending Handover</string>
+    <string name="label_original_tool_id">Original: %1$s</string>
+    <string name="label_backup_tool_id">Backup: %1$s</string>
+    <string name="label_location_line_station">Location: Line %1$s - Station %2$s</string>
+    <string name="label_problem">Problem: %1$s</string>
+    <string name="btn_mark_repaired">1. Mark Repaired (Service Engineer)</string>
+    <string name="btn_confirm_handover">2. Confirm Line Handover (Line Person)</string>
+    <string name="handover_verification_title">Line Handover Verification</string>
+    <string name="handover_ready_message">Original Tool %1$s is ready to place back on line.</string>
+    <string name="label_person_name_hint">Line Maintenance Person Name</string>
+    <string name="label_select_shift">Select Working Shift:</string>
+    <string name="btn_confirm_release">Confirm &amp; Release Backup Tool</string>
+
+    <!-- History Screen -->
+    <string name="history_log_title">Tool History Log</string>
+    <string name="total_log_entries_count">Total Log Entries: %1$d</string>
+    <string name="no_history_logs">No History Logs Found</string>
+    <string name="label_backup_given">Backup Given: %1$s</string>
+    <string name="label_handover_by">Handover By: %1$s (%2$s)</string>
+    <string name="label_time_registered">Time Registered: %1$s</string>
+</resources>
